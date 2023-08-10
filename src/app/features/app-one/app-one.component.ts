@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppOneComponent {
   readonly title = 'my-app';
-  public name: string = ""
+  public text: string = ""
 
-  public checkName() {
-    console.log(this.name);
+  public checkValue() {
+    console.log(this.text);
   }
 }

@@ -1,5 +1,11 @@
 <div>
-  <div>Header</div>
+  <div class="h-[70px] flex items-center bg-blue-300 px-2">
+    <ul class="flex gap-5">
+      <ng-container *ngFor="let item of path">
+        <li [routerLink]="item.url" class="cursor-pointer transition duration-300 hover:underline">{{ item.name }}</li>
+      </ng-container>
+    </ul>
+  </div>
   <router-outlet></router-outlet>
-  <div>Footer</div>
+  <div class="h-[70px] flex items-center bg-blue-300 px-2">Footer</div>
 </div>

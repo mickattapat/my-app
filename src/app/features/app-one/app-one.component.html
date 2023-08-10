@@ -1,8 +1,8 @@
-<div class="flex bg-slate-400 min-h-screen items-center justify-center">
+<div class="min-h-content flex bg-slate-400 items-center justify-center">
   <div class="border border-solid border-slate-500 p-5">
-    <input type="text" #nameText (input)="name = nameText.value">
+    <input type="text" [(ngModel)]="text">
     <div class="text-center">
-      <button class="border border-slate-700 mt-3" (click)="checkName()">checkName</button>
+      <button class="border border-slate-700 mt-3" (click)="checkValue()">check value</button>
     </div>
   </div>
 </div>

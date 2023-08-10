@@ -6,12 +6,20 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: '/appone'
+    redirectTo: '/app-one'
   },
   {
-    path: 'appone', loadChildren: () => import('./features/app-one/app-one.module').then(m => m.AppOneModule),
+    path: 'app-one', loadChildren: () => import('./features/app-one/app-one.module').then(m => m.AppOneModule),
     component: MainLayoutComponent
   },
+  {
+    path: 'app-service', loadChildren: () => import('./features/app-service/app-service.module').then(m => m.AppServiceModule),
+    component: MainLayoutComponent
+  },
+  {
+    path: 'app-form', loadChildren: () => import('./features/app-form/app-form.module').then(m => m.AppFormModule),
+    component: MainLayoutComponent
+  }
 ];
 
 @NgModule({

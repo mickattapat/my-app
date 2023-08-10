@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class MainLayoutComponent {
 
+  public path = [
+   {
+    name:"app-one",
+    url:"/app-one"
+   },
+   {
+    name:"app-service",
+    url:"/app-service"
+   },
+   {
+    name:"app-form",
+    url:"/app-form"
+   },
+  ]
 }

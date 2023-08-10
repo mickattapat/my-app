@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   project: 'my-app',
+  baseApi: 'https://jsonplaceholder.typicode.com'
 };
 
 /*

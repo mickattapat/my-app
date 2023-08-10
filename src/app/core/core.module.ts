@@ -4,7 +4,7 @@ import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -15,7 +15,8 @@ import { FormsModule } from '@angular/forms';
     CommonModule,
     BrowserModule,
     FormsModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ]
 })
 export class CoreModule { }
