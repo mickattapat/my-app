@@ -2,7 +2,6 @@
 
 - Learning Angular and Reskill 😤
 - It updates common things that are frequently used in work 😤.
-- [using tailwind css](https://tailwindcss.com/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
 
